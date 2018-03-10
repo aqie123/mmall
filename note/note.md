@@ -54,4 +54,20 @@
 	1.netstat -ano
 	2.netstat -aon|findstr "8080"  端口号
 	3.tasklist|findstr "2720"       pid
+十四：引入redis 【search.maven.org 】
+    1. jedis
+    2.spring
+        a.spring-webmvc
+        b.spring-oxm
+        c.spring-jdbc
+        d.spring-tx
+        e.spring-tes
+十五：项目结构初始化
+    1.pojo : 简单数据库对象，通过vo进行封装
+    2.common : 常量,公共异常
+十六：mybatis 三剑客
+    1. 根据数据库,自动生成 pojo,dao及对应xml文件
+    2.Mybatis -代码自动生成（generatorConfig.xml）
+     (http://blog.csdn.net/wangxy799/article/details/60870361)
+    3.
 
