@@ -19,9 +19,9 @@
 	2.Mybatis
 		1.Mybatis-generator : 自动生成数据库交互代码
 		2.Mybatis-plugin :mybatis接口实现和xml自动跳转
-		3.Mybatis-pagehelper : 分页插件
+		3.Mybatis-pagehelper : 分页组件
 	3.tomcat web.xml
-	4.spring applicationContext.xml
+	4.spring applicationContext.xml  包扫描
 	5.SpringMVC dispatcher-servlet.xml
 	6.日志管理 Logback 初始化
 	7.IDEA
@@ -69,5 +69,8 @@
     1. 根据数据库,自动生成 pojo,dao及对应xml文件
     2.Mybatis -代码自动生成（generatorConfig.xml）
      (http://blog.csdn.net/wangxy799/article/details/60870361)
-    3.
+十七：修改resources/mappers 里面添加和更新时间
+    1.#{createTime,jdbcType=TIMESTAMP}
+    2.#{updateTime,jdbcType=TIMESTAMP}
+    3.#{createTime,jdbcType=TIMESTAMP}
 
